@@ -1,0 +1,7 @@
+heroku config:set HUBOT_SLACK_TOKEN=6QRiAK51wG7TJqqqNaszSMqe
+heroku config:set HUBOT_SLACK_TEAM=awptech
+heroku config:set HUBOT_SLACK_BOTNAME=slackbot
+heroku config:set HEROKU_URL=http://shielded-dusk-3832.herokuapp.com
+
+
+FROM https://github.com/github/hubot/blob/master/docs/deploying/heroku.md
